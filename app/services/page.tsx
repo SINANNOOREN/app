@@ -36,7 +36,7 @@ const getServiceIcon = (index: number) => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       className="h-12 w-12 text-blue-500"
-      fill="none"
+      fill="none"    key={index}
       viewBox="0 0 24 24"
       stroke="currentColor"
     >
@@ -50,7 +50,7 @@ const getServiceIcon = (index: number) => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       className="h-12 w-12 text-blue-500"
-      fill="none"
+      fill="none"    key={index}
       viewBox="0 0 24 24"
       stroke="currentColor"
     >
@@ -61,7 +61,7 @@ const getServiceIcon = (index: number) => {
         d="M5 13l4 4L19 7"
       />
     </svg>,
-    <svg
+    <svg    key={index}
       xmlns="http://www.w3.org/2000/svg"
       className="h-12 w-12 text-blue-500"
       fill="none"
@@ -75,7 +75,7 @@ const getServiceIcon = (index: number) => {
         d="M9 12l2 2 4-4m6 2a9 9 0 11-6.219-8.485"
       />
     </svg>,
-    <svg
+    <svg    key={index}
       xmlns="http://www.w3.org/2000/svg"
       className="h-12 w-12 text-blue-500"
       fill="none"

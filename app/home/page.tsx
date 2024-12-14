@@ -1,5 +1,5 @@
 import React from "react";
-
+import Image from 'next/image'
 const CareerInMERN: React.FC = () => {
   return (
     <section className="flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 lg:px-24 py-12 bg-gray-50">
@@ -19,7 +19,7 @@ const CareerInMERN: React.FC = () => {
 
       {/* Image */}
       <div className="w-full md:w-1/2 flex justify-center md:justify-end">
-        <img
+        <Image
           src="/hero.jpg" // Replace with your image path
           alt="Career in MERN Stack"
           className="w-full md:w-3/4 lg:w-2/3 rounded-lg shadow-md"

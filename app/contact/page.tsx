@@ -29,7 +29,7 @@ const ContactMERN: React.FC = () => {
           <span className="text-blue-500">Contact</span> Us
         </h2>
         <p className="mt-4 text-lg text-gray-600">
-          Have questions about starting a career in the MERN stack? Reach out to us, and we'll be happy to help!
+          Have questions about starting a career in the MERN stack? Reach out to us, and we will be happy to help!
         </p>
       </div>
 
